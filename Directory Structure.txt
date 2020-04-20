@@ -1,0 +1,29 @@
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch>tree /A /F >"Directory Structure.txt"
+
+Folder PATH listing for volume Useful
+Volume serial number is AE15-F2BF
+H:.
+|   Directory Structure.txt
+|   Freezing Logs.txt
+|   MagPi-Fetch.exe
+|   MagPi-Fetch.spec
+|   
++---Includes
+|       RaspberryPiIcon.ico
+|       
++---Sample
+|       MagPi Books Page.txt
+|       Magpi Downloads Page.txt
+|       MagPi Issues Page.txt
+|       Sample Output.txt
+|       
+\---Scripts
+    |   MagPi-Fetch.py
+    |   ScrapperFunctions.py
+    |   SelectorFunctions.py
+    |   TextPrinter.py
+    |   WriterFunction.py
+    |   
+    \---__pycache__
+            MagPi-Fetch.cpython-37.pyc
+            

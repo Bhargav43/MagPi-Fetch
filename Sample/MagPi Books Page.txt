@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<title>Books — The MagPi magazine</title>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="LVy87eatLUzKYubeKbnKKKw1EaCiEC4nRUhcMvPfiRDdp+WR6z+ma/18lCfy/+fLGGF5RCLPLQa2WSyoq8wPcw==" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://magazines-static.raspberrypi.org/books/cover_images/000/000/029/original/Pi-Projects-5-COVER-2D.jpg?1576063231" />
+<meta name="twitter:title" content="Books — The MagPi magazine" />
+<meta property="og:description" content="Buy in print or download the digital versions for free" />
+<meta property="og:image" content="https://magazines-static.raspberrypi.org/books/cover_images/000/000/029/original/Pi-Projects-5-COVER-2D.jpg?1576063231" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="The MagPi magazine" />
+<meta property="og:title" content="Books — The MagPi magazine" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://magpi.raspberrypi.org/books" />
+
+  <meta name="twitter:site" content="TheMagPi" />
+  <meta name="twitter:creator" content="TheMagPi" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="shortcut icon" type="image/png" href="/assets/magpi/favicon-f5e68528d2abb28f06a58cbaa52ae7fd1cbcb4ea13be6df2f03d3450411a3e68.png" />
+
+  <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" />
+  <link rel="stylesheet" media="screen" href="https://static.raspberrypi.org/styles/Bits/1.3.2/Bits.min.css" />
+  <link rel="stylesheet" media="screen" href="/assets/application-db68a86e66b65c37f1b4c9bbef96289e7cb51d3781e685c1af4b476844dbfec9.css" />
+
+  <link rel="stylesheet" media="screen" href="/assets/_magazines/magpi/magpi-0c5d7599ffe5882025c9bb5b4c6f81c294f9db5aa7add5e9d34923e9675d61f2.css" />
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', "UA-46270871-13", 'auto');
+ga('set', 'anonymizeIp', true);
+</script>
+
+
+<script src="/assets/application-5a22d51f53e53662c468a322aa67433d98e231eb21e450ed9067e1ff058163fc.js" data-turbolinks-track="reload"></script>
+
+
+  <link rel="alternate" type="application/rss+xml" title="The MagPi" href="https://magpi.raspberrypi.org/articles" />
+
+  </head>
+
+  <body>
+      <header class="c-header">
+  <div class="c-container__container o-container">
+    <a class="c-home-link" href="/">
+      <img alt="The MagPi magazine" class="c-home-link__logo" src="/assets/magpi/header/logo-2aaa4bfc26e93c802785a30cc9a6b94fc2d6e13b006bf7b859cbca9bdc969da3.png" />
+</a>
+    <div class="c-header-social">
+      <ul class="c-social-list">
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://www.youtube.com/channel/UCgZlbxTljh1aXKijTRye5bA">
+        <svg
+  height="30px"
+  version="1.1"
+  viewBox="0 0 60 60"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    class="svg-path"
+    fill="#bc1e44"
+    fill-rule="evenodd"
+    d="M56.35 16.676a6.91 6.91 0 00-4.862-4.894C47.199 10.625 30 10.625 30 10.625s-17.2 0-21.488 1.157a6.91 6.91 0 00-4.863 4.894C2.5 20.993 2.5 30 2.5 30s0 9.007 1.15 13.324a6.911 6.911 0 004.862 4.894C12.8 49.375 30 49.375 30 49.375s17.2 0 21.488-1.157a6.91 6.91 0 004.863-4.894C57.5 39.007 57.5 30 57.5 30s0-9.007-1.15-13.324 M24.375 38.178L38.75 30l-14.375-8.178v16.356z"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Subscribe to The MagPi on YouTube</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://www.facebook.com/MagPiMagazine">
+        <svg
+  height="30px"
+  version="1.1"
+  viewbox="0 0 60.734 60.733"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914
+      v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462
+      v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z
+    "
+    fill="#bc1e44"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Like The MagPi on Facebook</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://twitter.com/TheMagPi">
+        <svg
+  height="30px"
+  version="1.1"
+  viewbox="0 0 612 612"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+      c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+      c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+      c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+      c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+      c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+      c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z
+    "
+    fill="#bc1e44"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Follow The MagPi on Twitter</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://magpi.raspberrypi.org/feed">
+        <svg
+  height="30px"
+  version="1.1"
+  viewBox="0 0 430.117 430.118"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M97.493,332.473c10.419,10.408,16.755,24.525,16.794,40.244c-0.04,15.687-6.375,29.809-16.755,40.17l-0.04,0.019
+      c-10.398,10.352-24.603,16.681-40.398,16.681c-15.775,0-29.944-6.348-40.34-16.699C6.384,402.526,0,388.422,0,372.717
+      c0-15.719,6.384-29.869,16.754-40.253v0.009c10.401-10.36,24.57-16.735,40.34-16.735C72.89,315.738,87.081,322.131,97.493,332.473z
+      M97.493,332.464v0.009c0.019,0,0.019,0,0.019,0L97.493,332.464z M16.754,412.906c0,0,0,0,0-0.019c-0.019,0-0.019,0-0.019,0
+      L16.754,412.906z M0.046,146.259v82.129c53.618,0.033,104.328,21.096,142.278,59.104c37.943,37.888,58.917,88.675,59.003,142.477
+      h0.028v0.149h82.467c-0.065-78.233-31.866-149.099-83.279-200.549C149.122,178.126,78.285,146.308,0.046,146.259z M0.196,0v82.089
+      c191.661,0.14,347.464,156.184,347.594,348.028h82.327c-0.056-118.571-48.248-225.994-126.132-303.932
+      C226.073,48.274,118.721,0.051,0.196,0z
+    "
+    fill="#bc1e44"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Subscribe to the The MagPi RSS feed</span>
+</a>    </li>
+</ul>
+
+    </div>
+  </div>
+
+  <nav class="c-header__nav">
+    <div class="o-container">
+      <ul class="c-nav">
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/articles">Articles</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/articles/category/tutorials">Tutorials</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/articles/category/reviews">Reviews</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/issues">Issues</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/books">Books</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/subscribe/new">Subscribe</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="https://store.rpipress.cc/collections/the-magpi-essentials">Buy now</a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="/advertisers">Advertise</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+      <main>
+        
+        <div class="c-slice">
+  <div class="o-container">
+    <h1 class="c-type-display-large rspec-book-heading">Books</h1>
+
+    <div class="o-grid">
+      <div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Projects Book 5" href="/books/projects-5">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/029/large/Pi-Projects-5-COVER-2D.jpg?1576063231" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Projects Book 5" href="/books/projects-5">
+          Projects Book 5
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-11-28 00:00:00 UTC">
+        November 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi is loved the world over by educators and makers thanks to its tiny size and endless possibilities. Find out why it’s loved and how to use it with the latest official Projects Book…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/projects-5">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-projects-book-volume-5">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/projects-5/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Retro Gaming with Raspberry Pi" href="/books/retro-gaming">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/028/large/001-Retro-Gaming-COVER.jpg?1573664016" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Retro Gaming with Raspberry Pi" href="/books/retro-gaming">
+          Retro Gaming with Raspberry Pi
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-11-20 00:00:00 UTC">
+        November 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        This 164-page book shows you how to set up a Raspberry Pi to play classic games, and a whole lot more. Build your own portable console, full-size arcade cabinet, and pinball machine with our step-b…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/retro-gaming">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/retro-gaming-with-raspberry-pi">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/retro-gaming/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Get Started with Raspberry Pi" href="/books/get-started">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/027/large/001_GetStartedRPi_PACKAGE-WEB.png?1572608410" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Get Started with Raspberry Pi" href="/books/get-started">
+          Get Started with Raspberry Pi
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-11-01 00:00:00 UTC">
+        November 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Ideal for beginners, this official guide and starter kit contains everything you need to get started with Raspberry Pi. Inside you’ll find a Raspberry Pi 3A+, the official case, and a 16GB microSD…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/get-started">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/get-started-with-raspberry-pi">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/get-started/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Raspberry Pi Beginner&#39;s Guide v3" href="/books/beginners-guide-3rd-ed">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/026/large/RPi_BeginnersGuide_3E_OFC.jpg?1571919429" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Raspberry Pi Beginner&#39;s Guide v3" href="/books/beginners-guide-3rd-ed">
+          Raspberry Pi Beginner&#39;s Guide v3
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-11-01 00:00:00 UTC">
+        November 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Fully updated for Raspberry Pi 4 and latest software, including Scratch 3, this 252-page official Raspberry Pi book is crammed with projects and beginner’s guides containing all the information you…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/beginners-guide-3rd-ed">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-beginners-guide-3rd-edition">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/beginners-guide-3rd-ed/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Beginner&#39;s Guide v2" href="/books/beginners-guide-2nd-ed">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/001/large/001-RPi_BeginnersGuide_2019-OFC.jpg?1568891619" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Beginner&#39;s Guide v2" href="/books/beginners-guide-2nd-ed">
+          Beginner&#39;s Guide v2
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-06-24 00:00:00 UTC">
+        June 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi is a small, clever, British-built computer that’s packed with potential. Made using the same technology you find in a smartphone, the Raspberry Pi is designed to help you learn cod…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/beginners-guide-2nd-ed">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/official-raspberry-pi-beginner-s-guide-2nd-edition">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/beginners-guide-2nd-ed/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="C &amp; GUI Programming" href="/books/c-gui-programming">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/002/large/GUI-Programming_COVER.png?1568891630" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="C &amp; GUI Programming" href="/books/c-gui-programming">
+          C &amp; GUI Programming
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-04-12 00:00:00 UTC">
+        April 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Even if you are an absolute beginner, this book will teach you all you need to know to write simple programs in C and start creating GUIs. The first half of the book is an introduction to C, and co…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/c-gui-programming">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/an-introduction-to-c-gui-programming">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/c-gui-programming/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Command Line 2" href="/books/command-line-second-edition">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/003/large/RPI_CommandLine_2ndEd_Cover_1024x1024@2x.jpg?1568891635" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Command Line 2" href="/books/command-line-second-edition">
+          Command Line 2
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2019-02-18 00:00:00 UTC">
+        February 2019
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Using the command line is an amazing skill to have, allowing you to control a computer more effectively than ever before – especially when it comes to Raspbian on the Raspberry Pi! Here’s our updat…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/command-line-second-edition">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/conquer-the-command-line-2nd-edition">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/command-line-second-edition/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Book of Scratch" href="/books/book-of-scratch">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/004/large/Book-of-Scratch-COVER.png?1568891643" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Book of Scratch" href="/books/book-of-scratch">
+          Book of Scratch
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2018-12-04 00:00:00 UTC">
+        December 2018
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The first ever Code Club book is here! With it, you’ll learn how to code using Scratch, the block-based programming language. In each chapter you’ll find instructions to build cool games, animation…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/book-of-scratch">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/code-club-book-of-scratch-volume-1">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/book-of-scratch/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Beginner&#39;s Guide" href="/books/beginners-guide">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/005/large/BeginnersGuide.jpg?1568891650" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Beginner&#39;s Guide" href="/books/beginners-guide">
+          Beginner&#39;s Guide
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2018-12-04 00:00:00 UTC">
+        December 2018
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Buy in Print The Raspberry Pi is a small, clever, British-built computer that’s packed with potential. Made using the same technology you find in a smartphone, the Raspberry Pi is designed to help…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/beginners-guide">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-beginner-s-guide">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/beginners-guide/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Projects Book 4" href="/books/projects-4">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/006/large/Pi-Projects-Volume04_COVER.jpg?1568891656" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Projects Book 4" href="/books/projects-4">
+          Projects Book 4
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2018-10-18 00:00:00 UTC">
+        October 2018
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi is loved the world over by educators and makers thanks to it’s tiny size and endless possibilities. We’ve managed to stuff the fourth edition of the official Raspberry Pi Projects…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/projects-4">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-projects-book-volume-4-2018">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/projects-4/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Annual 2018" href="/books/annual-2018">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/007/large/MagPi-Annual-2018-COVER-WEB.jpg?1568891680" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Annual 2018" href="/books/annual-2018">
+          Annual 2018
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2017-12-22 00:00:00 UTC">
+        December 2017
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi Annual 2018 is an educational book packed with cartons, quizzes, and computer code. It’s entertaining for kids of all ages, and the perfect introduction to The Raspberry Pi – the B…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/annual-2018">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-raspberry-pi-annual-2018">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/annual-2018/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Beginner&#39;s Book 1" href="/books/beginners-1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/008/large/Pi-Beginners-cover-DIGITAL-1.png?1568891680" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Beginner&#39;s Book 1" href="/books/beginners-1">
+          Beginner&#39;s Book 1
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2017-12-07 00:00:00 UTC">
+        December 2017
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The official Raspberry Pi Beginner’s book comes with everything you need to get started with Raspberry Pi today (hardware not included with the digital edition). Inside you’ll find a Raspberry Pi Z…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/beginners-1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-beginners-book-volume-1-2018">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/beginners-1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Projects Book 3" href="/books/projects-3">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/009/large/Projects_v3_COVER.jpg?1568891688" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Projects Book 3" href="/books/projects-3">
+          Projects Book 3
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2017-11-24 00:00:00 UTC">
+        November 2017
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi is becoming a household name. It’s ubiquitous in the maker community, helped revolutionised computing the world over, and is now the third best-selling computer of all time. Get to…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/projects-3">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/the-official-raspberry-pi-projects-book-volume-3-2018">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/projects-3/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="AIY Voice Essentials" href="/books/essentials-aiy-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/010/large/J005170_RPI_Essentials_10-AIY-Projects_DIGITAL.png?1568891690" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="AIY Voice Essentials" href="/books/essentials-aiy-v1">
+          AIY Voice Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2017-11-08 00:00:00 UTC">
+        November 2017
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Google AIY Projects brings do-it-yourself artificial intelligence (AI) to the maker community. You will build a cardboard device (kit sold separately) that uses the Google Assistant to answer quest…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-aiy-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="https://store.rpipress.cc/products/aiy-projects-voice-book">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-aiy-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Camera Essentials" href="/books/essentials_camera_v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/011/large/Essentials_Camera.png?1568891700" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Camera Essentials" href="/books/essentials_camera_v1">
+          Camera Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2017-06-23 00:00:00 UTC">
+        June 2017
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Camera Module is one of the most popular add-ons for the Raspberry Pi and turns your favourite credit card-sized computer into a powerful digital camera. Take pictures and capture video on your…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials_camera_v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lJn9Lm">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials_camera_v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Projects Book 2" href="/books/projects-2">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/014/large/Pi-Projects2-Collected-RGB-1.jpg?1568891729" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Projects Book 2" href="/books/projects-2">
+          Projects Book 2
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-11-18 00:00:00 UTC">
+        November 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The Raspberry Pi is the best-selling British computer of all time and is known the world over for making incredible hardware and software projects possible. It’s also helping to revolutionise compu…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/projects-2">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lHrz5f">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/projects-2/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Learn C Essentials" href="/books/essentials-c-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/016/large/4718_Essentials-08-Code-with-C-COVER.png?1568891735" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Learn C Essentials" href="/books/essentials-c-v1">
+          Learn C Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-10-13 00:00:00 UTC">
+        October 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        The C programming language been used to program everything from the tiny microcontrollers used in watches and toasters up to huge software systems – most of Linux (and Raspbian itself) is written i…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-c-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lFEeWt">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-c-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="GPIO Zero Essentials" href="/books/essentials-gpio-zero-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/017/large/Essentials-07-GPIO-ZERO_Flat_Cover.jpg?1568891742" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="GPIO Zero Essentials" href="/books/essentials-gpio-zero-v1">
+          GPIO Zero Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-08-18 00:00:00 UTC">
+        August 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Using the GPIO pins on your Raspberry Pi opens up a whole new world of possibilities. While it might seem daunting at first glance, with our help you’ll be creating electronic circuits and controll…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-gpio-zero-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lHr6jv">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-gpio-zero-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Minecraft Essentials" href="/books/essentials-minecraft-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/018/large/Minecraft-Ebook-DIGITAL-COVER.jpg?1568891744" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Minecraft Essentials" href="/books/essentials-minecraft-v1">
+          Minecraft Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-07-21 00:00:00 UTC">
+        July 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Minecraft is the biggest game on the planet with more than 30 million copies sold across numerous hardware platforms. Not bad for a sandbox that doesn’t really have a point. The version of Minecraf…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-minecraft-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lIQipO">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-minecraft-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Scratch Essentials" href="/books/essentials-scratch-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/019/large/Scratch-Cover.jpg?1568891749" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Scratch Essentials" href="/books/essentials-scratch-v1">
+          Scratch Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-06-27 00:00:00 UTC">
+        June 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Created by the boffins at MIT, Scratch enables children and adults without any prior knowledge to start programming within minutes. In this book, we’ll help you get started and guide you step-by-st…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-scratch-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lHPlhB">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-scratch-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Sonic Pi Essentials" href="/books/essentials-sonic-pi-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/020/large/SonicPi-thumb-cover.png?1568891759" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Sonic Pi Essentials" href="/books/essentials-sonic-pi-v1">
+          Sonic Pi Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-02-25 00:00:00 UTC">
+        February 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Sam Aaron, the creator of Sonic Pi, has written this book to complement the software’s built-in tutorial and to help you jump-start your live-coding career. The book is packed with fun, instantly r…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-sonic-pi-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://thepihut.com/collections/magpi/products/magpi-essentials-code-music-with-sonic-pi">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-sonic-pi-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Sense HAT Essentials" href="/books/essentials-sense-hat-v1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/021/large/Essentials_SenseHAT_Cover.jpg?1568891761" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Sense HAT Essentials" href="/books/essentials-sense-hat-v1">
+          Sense HAT Essentials
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2016-01-21 00:00:00 UTC">
+        January 2016
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        What is the Sense HAT? Why is it in space? Learn about its amazing sensor-suite, its incredible mission aboard the ISS with Astro Pi, and build five fun and educational projects to help you sense t…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-sense-hat-v1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://thepihut.com/collections/magpi/products/magpi-essentials-experiment-with-the-sense-hat">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-sense-hat-v1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Make Games" href="/books/essentials-games-vol1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/022/large/RPi_Essentials_eBook2_PythonGames-001.png?1568891764" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Make Games" href="/books/essentials-games-vol1">
+          Make Games
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2015-12-11 00:00:00 UTC">
+        December 2015
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        While countless millions of us like nothing more than spending hours racking up high scores on our favourite games, too few of us are exposed to an even more gratifying way to spend the evening – m…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-games-vol1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lHSNZL">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-games-vol1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Projects Book" href="/books/projects-1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/023/large/Pi-Projects_Cover_flat_stroke.jpg?1568891768" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Projects Book" href="/books/projects-1">
+          Projects Book
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2015-11-20 00:00:00 UTC">
+        November 2015
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        How to get started with your Raspberry Pi   Dozens of inspirational community projects   Essential guides and amazing ideas   Expert reviews and buying advice   Never-before printed pages from the…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/projects-1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://magpi.cc/2lHrfU5">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/projects-1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="Command Line" href="/books/essentials-bash-vol1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/024/large/Bash-Vol-1-Cover1.jpg?1568891769" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="Command Line" href="/books/essentials-bash-vol1">
+          Command Line
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2015-10-29 00:00:00 UTC">
+        October 2015
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        For getting instructions from user to computer – in a clear, quick and unambiguous form – the command line is often the best way. Now – thanks to Raspbian on the Raspberry Pi – a new generation are…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/essentials-bash-vol1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <a class="c-button u-mb-x2" href="http://thepihut.com/collections/magpi/products/magpi-essentials-conquer-the-command-line">Buy Now</a>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/essentials-bash-vol1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+<div class="o-grid__col u-6/12@lg u-mb-x8">
+  <div class="o-media o-media--res">
+    <div class="o-media__fixed u-12/12 u-6/12@sm u-5/12@md">
+      <a data-action="Clicked book listing cover" data-category="book" data-label="MagPi SE 1" href="/books/se1">
+        <img src="https://magazines-static.raspberrypi.org/books/cover_images/000/000/025/large/MagPi-SE1-Cover.png?1568891784" />
+</a>    </div>
+
+    <div class="o-media__fluid">
+      <h2 class="o-type-display rspec-book-card-heading">
+        <a class="c-link" data-action="Clicked book listing title" data-category="book" data-label="MagPi SE 1" href="/books/se1">
+          MagPi SE 1
+</a>      </h2>
+
+      <time class="c-type-caption rspec-book-card-publication-month" datetime="2015-02-01 00:00:00 UTC">
+        February 2015
+      </time>
+
+      <p class="c-type-base rspec-book-card-summary">
+        Internet radio   Retro gaming   Photography   Catch up TV   Robot arm   Minecraft   Printing   … and much more The MagPi is freely licensed under Creative Commons (BY-SA-NC 3.0). You can download t…
+      </p>
+
+      <p class="c-type-base">
+        <a class="c-link" href="/books/se1">More details</a>
+      </p>
+
+      <p class="c-type-base">
+  <span class="c-button c-button--disabled u-mb-x2">Sold out</span>
+
+  &nbsp;
+
+  <a class="c-button c-button--secondary u-mb-x2" href="/books/se1/pdf">Free Download</a>
+</p>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </main>
+      <footer class="c-footer c-slice c-light-on-dark u-bgcolor-ui-black">
+  <div class="o-container c-footer__container">
+    <div class="c-footer__nav">
+      <ul class="c-footer-nav-list">
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/">Home</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/about">About</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/articles">Articles</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/articles/category/tutorials">Tutorials</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/articles/category/reviews">Reviews</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/issues">Issues</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/books">Books</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/subscribe/new">Subscribe</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="https://store.rpipress.cc/collections/the-magpi-essentials">Buy now</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/advertisers">Advertise</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="/contact">Contact us</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="https://www.raspberrypi.org/privacy/">Privacy Policy</a>
+          </li>
+          <li class="c-footer-nav-list__item">
+            <a class="c-footer-nav-list__link" href="https://magpi.cc/write">Write for us</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="c-footer__actions">
+      <div class="c-issue-actions c-issue-actions--footer">
+  <a class="c-issue-actions__button c-button c-button--block" href="https://store.rpipress.cc/products/the-magpi-magazine-92">Buy now</a>
+
+  <a class="c-issue-actions__button c-button c-button--block" href="/subscribe/new">Subscribe</a>
+
+    <div class="c-issue-actions__button">
+      <a href="https://itunes.apple.com/us/app/the-magpi-magazine/id972033560?ls=1&amp;mt=8">
+        <img class="c-issue-actions__badge" src="/assets/download-badges/apple-app-store-5970eff89f6544931d2435bdef6ebb1590cee8d74eef363e6e1981192b5dffce.png" />
+</a>    </div>
+
+    <div class="c-issue-actions__button">
+      <a href="https://play.google.com/store/apps/details?id=com.raspberry.magpi">
+        <img class="c-issue-actions__badge" src="/assets/download-badges/google-play-store-75045f43228b039f1dea6682d882418499a7273c37fdf79fa35e577bbb38342c.png" />
+</a>    </div>
+
+</div>
+
+    </div>
+
+    <div class="c-footer__social">
+      <ul class="c-social-list">
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://www.youtube.com/channel/UCgZlbxTljh1aXKijTRye5bA">
+        <svg
+  height="30px"
+  version="1.1"
+  viewBox="0 0 60 60"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    class="svg-path"
+    fill="#ffffff"
+    fill-rule="evenodd"
+    d="M56.35 16.676a6.91 6.91 0 00-4.862-4.894C47.199 10.625 30 10.625 30 10.625s-17.2 0-21.488 1.157a6.91 6.91 0 00-4.863 4.894C2.5 20.993 2.5 30 2.5 30s0 9.007 1.15 13.324a6.911 6.911 0 004.862 4.894C12.8 49.375 30 49.375 30 49.375s17.2 0 21.488-1.157a6.91 6.91 0 004.863-4.894C57.5 39.007 57.5 30 57.5 30s0-9.007-1.15-13.324 M24.375 38.178L38.75 30l-14.375-8.178v16.356z"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Subscribe to The MagPi on YouTube</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://www.facebook.com/MagPiMagazine">
+        <svg
+  height="30px"
+  version="1.1"
+  viewbox="0 0 60.734 60.733"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M57.378,0.001H3.352C1.502,0.001,0,1.5,0,3.353v54.026c0,1.853,1.502,3.354,3.352,3.354h29.086V37.214h-7.914v-9.167h7.914
+      v-6.76c0-7.843,4.789-12.116,11.787-12.116c3.355,0,6.232,0.251,7.071,0.36v8.198l-4.854,0.002c-3.805,0-4.539,1.809-4.539,4.462
+      v5.851h9.078l-1.187,9.166h-7.892v23.52h15.475c1.852,0,3.355-1.503,3.355-3.351V3.351C60.731,1.5,59.23,0.001,57.378,0.001z
+    "
+    fill="#ffffff"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Like The MagPi on Facebook</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://twitter.com/TheMagPi">
+        <svg
+  height="30px"
+  version="1.1"
+  viewbox="0 0 612 612"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+      c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+      c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+      c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+      c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+      c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+      c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z
+    "
+    fill="#ffffff"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Follow The MagPi on Twitter</span>
+</a>    </li>
+
+    <li class="c-social-list__item">
+      <a class="c-social-list__link" href="https://magpi.raspberrypi.org/feed">
+        <svg
+  height="30px"
+  version="1.1"
+  viewBox="0 0 430.117 430.118"
+  width="30px"
+  x="0px"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  y="0px"
+>
+  <path
+    class="svg-path"
+    d="
+      M97.493,332.473c10.419,10.408,16.755,24.525,16.794,40.244c-0.04,15.687-6.375,29.809-16.755,40.17l-0.04,0.019
+      c-10.398,10.352-24.603,16.681-40.398,16.681c-15.775,0-29.944-6.348-40.34-16.699C6.384,402.526,0,388.422,0,372.717
+      c0-15.719,6.384-29.869,16.754-40.253v0.009c10.401-10.36,24.57-16.735,40.34-16.735C72.89,315.738,87.081,322.131,97.493,332.473z
+      M97.493,332.464v0.009c0.019,0,0.019,0,0.019,0L97.493,332.464z M16.754,412.906c0,0,0,0,0-0.019c-0.019,0-0.019,0-0.019,0
+      L16.754,412.906z M0.046,146.259v82.129c53.618,0.033,104.328,21.096,142.278,59.104c37.943,37.888,58.917,88.675,59.003,142.477
+      h0.028v0.149h82.467c-0.065-78.233-31.866-149.099-83.279-200.549C149.122,178.126,78.285,146.308,0.046,146.259z M0.196,0v82.089
+      c191.661,0.14,347.464,156.184,347.594,348.028h82.327c-0.056-118.571-48.248-225.994-126.132-303.932
+      C226.073,48.274,118.721,0.051,0.196,0z
+    "
+    fill="#ffffff"
+  />
+</svg>
+
+        <span class="u-visually-hidden">Subscribe to the The MagPi RSS feed</span>
+</a>    </li>
+</ul>
+
+    </div>
+
+    <div class="c-footer__newsletter">
+      <form
+  action="https://magpi.us8.list-manage.com/subscribe/post?u=e31349e35c9c4dfb8bdf10e69&amp;id=e2ce89f288"
+  class="c-form u-mb-x5"
+  method="post"
+  novalidate
+  target="_blank"
+>
+  <input name="b_e31349e35c9c4dfb8bdf10e69_748d641b78" type="hidden" value="">
+<input name="group[82803][262144]"  type="hidden" value="1">
+<input name="group[82803][524288]"  type="hidden" value="1">
+<input name="group[82803][1048576]" type="hidden" value="1">
+<input name="group[82803][2097152]" type="hidden" value="1">
+
+
+  <div class="u-clearfix">
+    <label
+      class="c-label u-weight-bold"
+      for="footer_newsletter_form_email"
+    >
+      The MagPi magazine newsletter
+    </label>
+
+    <input
+      class="c-input u-mb"
+      id="footer_newsletter_form_email"
+      name="EMAIL"
+      placeholder="you@example.com"
+      type="email"
+      value=""
+    >
+
+    <button
+      class="c-button u-border-x2 u-1/2 u-5/12@md u-4/12@sm u-float-right"
+      name="subscribe"
+      type="submit"
+    >
+      Sign up
+    </button>
+  </div>
+</form>
+
+    </div>
+  </div>
+
+  <div class="c-footer__copyright">
+    <p class="c-type-caption">
+      ©2020
+      <a class="c-footer__link" href="https://www.raspberrypi.org">Raspberry Pi Trading Ltd</a>
+    </p>
+  </div>
+</footer>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"58729a6b8a80df77","version":"2020.3.0","startTime":1587424902981}'></script>
+</body>
+</html>

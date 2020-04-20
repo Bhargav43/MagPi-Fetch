@@ -1,0 +1,97 @@
+Microsoft Windows [Version 10.0.17134.1425]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch>pyi-makespec --onefile --hidden-import=requests --hidden-import=requests_html --hidden-import=bs4 --hidden-import=re --hidden-import=os --hidden-import=time --hidden-import=sys --hidden-import=TextPrinter --hidden-import=ScrapperFunctions --hidden-import=SelectorFunctions --hidden-import=WriterFunction --hidden-import=pkg_resources.py2_warn --icon=".\Includes\RaspberryPiIcon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch" ".\Scripts\MagPi-Fetch.py"
+wrote H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\MagPi-Fetch.spec
+now run pyinstaller.py to build the executable
+
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch>pyinstaller --onefile --hidden-import=requests --hidden-import=requests_html --hidden-import=bs4 --hidden-import=re --hidden-import=os --hidden-import=time --hidden-import=sys --hidden-import=TextPrinter --hidden-import=ScrapperFunctions --hidden-import=SelectorFunctions --hidden-import=WriterFunction --hidden-import=pkg_resources.py2_warn --icon=".\Includes\RaspberryPiIcon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch" ".\Scripts\MagPi-Fetch.py"
+314 INFO: PyInstaller: 3.6
+314 INFO: Python: 3.7.0
+316 INFO: Platform: Windows-10-10.0.17134-SP0
+319 INFO: wrote H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\MagPi-Fetch.spec
+325 INFO: UPX is not available.
+335 INFO: Extending PYTHONPATH with paths
+['H:\\Projects\\Python Related Stuff\\Pyzo Projects\\MagPi-Fetch\\Scripts',
+ 'H:\\Projects\\Python Related Stuff\\Pyzo Projects\\MagPi-Fetch']
+335 INFO: checking Analysis
+336 INFO: Building Analysis because Analysis-00.toc is non existent
+337 INFO: Initializing module dependency graph...
+350 INFO: Caching module graph hooks...
+381 INFO: Analyzing base_library.zip ...
+16016 INFO: Caching module dependency graph...
+16551 INFO: running Analysis Analysis-00.toc
+16563 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by e:\installation directory\python\python37-64\python.exe
+17063 INFO: Analyzing H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\Scripts\MagPi-Fetch.py
+18158 INFO: Processing pre-safe import module hook   urllib3.packages.six.moves
+28564 INFO: Processing pre-safe import module hook   win32com
+28712 INFO: Processing pre-find module path hook   distutils
+28715 INFO: distutils: retargeting to non-venv dir 'e:\\installation directory\\python\\python37-64\\lib'
+35558 INFO: Processing pre-find module path hook   site
+35561 INFO: site: retargeting to fake-dir 'e:\\installation directory\\python\\python37-64\\lib\\site-packages\\PyInstaller\\fake-modules'
+40815 INFO: Processing pre-safe import module hook   setuptools.extern.six.moves
+59087 INFO: Processing pre-safe import module hook   six.moves
+73870 INFO: Analyzing hidden import 'pkg_resources.py2_warn'
+73874 INFO: Processing module hooks...
+73877 INFO: Loading module hook "hook-appdirs.py"...
+73893 INFO: Excluding import 'win32com'
+73903 INFO:   Removing import of win32com.shell from module appdirs
+73904 INFO:   Removing import of win32com.shell.shellcon from module appdirs
+73905 INFO:   Removing import of win32com.shell.shell from module appdirs
+73907 INFO: Loading module hook "hook-certifi.py"...
+73920 INFO: Loading module hook "hook-distutils.py"...
+73926 INFO: Loading module hook "hook-encodings.py"...
+74326 INFO: Loading module hook "hook-lib2to3.py"...
+74347 INFO: Loading module hook "hook-lxml.etree.py"...
+74351 INFO: Loading module hook "hook-numpy.core.py"...
+74892 INFO: Loading module hook "hook-numpy.py"...
+74899 INFO: Loading module hook "hook-pandas.py"...
+78380 INFO: Loading module hook "hook-pkg_resources.py"...
+80375 INFO: Excluding import '__main__'
+80382 INFO:   Removing import of __main__ from module pkg_resources
+80384 INFO: Loading module hook "hook-pydoc.py"...
+80388 INFO: Loading module hook "hook-pythoncom.py"...
+81499 INFO: Loading module hook "hook-pytz.py"...
+81833 INFO: Loading module hook "hook-pywintypes.py"...
+82935 INFO: Loading module hook "hook-setuptools.py"...
+85353 INFO: Loading module hook "hook-sqlite3.py"...
+85739 INFO: Loading module hook "hook-sysconfig.py"...
+85745 INFO: Loading module hook "hook-win32com.py"...
+87441 INFO: Loading module hook "hook-xml.dom.domreg.py"...
+87445 INFO: Loading module hook "hook-xml.etree.cElementTree.py"...
+87450 INFO: Loading module hook "hook-xml.py"...
+87720 INFO: Looking for ctypes DLLs
+87966 INFO: Analyzing run-time hooks ...
+88005 INFO: Including run-time hook 'pyi_rth_pkgres.py'
+88012 INFO: Including run-time hook 'pyi_rth_win32comgenpy.py'
+88023 INFO: Including run-time hook 'pyi_rth_multiprocessing.py'
+88038 INFO: Including run-time hook 'pyi_rth_certifi.py'
+88131 INFO: Looking for dynamic libraries
+92688 INFO: Looking for eggs
+92688 INFO: Using Python library e:\installation directory\python\python37-64\python37.dll
+92693 INFO: Found binding redirects:
+[]
+92763 INFO: Warnings written to H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\build\MagPi-Fetch\warn-MagPi-Fetch.txt
+93569 INFO: Graph cross-reference written to H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\build\MagPi-Fetch\xref-MagPi-Fetch.html
+93825 INFO: checking PYZ
+93826 INFO: Building PYZ because PYZ-00.toc is non existent
+93830 INFO: Building PYZ (ZlibArchive) H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\build\MagPi-Fetch\PYZ-00.pyz
+104547 INFO: Building PYZ (ZlibArchive) H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\build\MagPi-Fetch\PYZ-00.pyz completed successfully.
+104751 INFO: checking PKG
+104752 INFO: Building PKG because PKG-00.toc is non existent
+104758 INFO: Building PKG (CArchive) PKG-00.pkg
+150067 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+150176 INFO: Bootloader e:\installation directory\python\python37-64\lib\site-packages\PyInstaller\bootloader\Windows-64bit\run.exe
+150176 INFO: checking EXE
+150182 INFO: Building EXE because EXE-00.toc is non existent
+150184 INFO: Building EXE from EXE-00.toc
+150193 INFO: Copying icons from ['Includes\\RaspberryPiIcon.ico']
+150532 INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+150532 INFO: Writing RT_ICON 1 resource with 72165 bytes
+150554 INFO: Updating manifest in H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\build\MagPi-Fetch\run.exe.z3u0nnz0
+150799 INFO: Updating resource type 24 name 1 language 0
+150811 INFO: Appending archive to EXE H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\dist\MagPi-Fetch.exe
+151244 INFO: Building EXE from EXE-00.toc completed successfully.
+
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch>

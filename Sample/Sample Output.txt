@@ -1,0 +1,155 @@
+Microsoft Windows [Version 10.0.17134.1425]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\dist>MagPi-Fetch.exe
+
+Kindly Understand, The Purpose of The Program is to Automate The Process of Downloading MagPi PDFs But The Download Speed Can Nowhere be Near the General Browser's Level.
+
+---------------Please Wait--------------
+List of 118 Raspberry Pi Magz on Site Are as Follows:
+Sno.    Alias No.       Name
+1       -118    MagPi92.pdf
+2       -117    MagPi91.pdf
+3       -116    MagPi90.pdf
+4       -115    MagPi89.pdf
+5       -114    MagPi88.pdf
+6       -113    MagPi87.pdf
+7       -112    MagPi86.pdf
+8       -111    MagPi85.pdf
+9       -110    MagPi84.pdf
+10      -109    MagPi83.pdf
+11      -108    MagPi82.pdf
+12      -107    MagPi81.pdf
+13      -106    MagPi80.pdf
+14      -105    MagPi79.pdf
+15      -104    MagPi78.pdf
+16      -103    MagPi77.pdf
+17      -102    MagPi76.pdf
+18      -101    MagPi75.pdf
+19      -100    MagPi74.pdf
+20      -99     MagPi73.pdf
+21      -98     MagPi72.pdf
+22      -97     MagPi71.pdf
+23      -96     MagPi70.pdf
+24      -95     MagPi69.pdf
+25      -94     MagPi68.pdf
+26      -93     MagPi67.pdf
+27      -92     MagPi66.pdf
+28      -91     MagPi65.pdf
+29      -90     MagPi64.pdf
+30      -89     MagPi63.pdf
+31      -88     MagPi62.pdf
+32      -87     MagPi61.pdf
+33      -86     MagPi60.pdf
+34      -85     MagPi59.pdf
+35      -84     MagPi58.pdf
+36      -83     MagPi57.pdf
+37      -82     MagPi56.pdf
+38      -81     MagPi55.pdf
+39      -80     MagPi54.pdf
+40      -79     MagPi53.pdf
+41      -78     MagPi52.pdf
+42      -77     MagPi51.pdf
+43      -76     MagPi50.pdf
+44      -75     MagPi49.pdf
+45      -74     MagPi48.pdf
+46      -73     MagPi47.pdf
+47      -72     MagPi46.pdf
+48      -71     MagPi45.pdf
+49      -70     MagPi44.pdf
+50      -69     MagPi43.pdf
+51      -68     MagPi42.pdf
+52      -67     MagPi41.pdf
+53      -66     MagPi40.pdf
+54      -65     MagPi39.pdf
+55      -64     MagPi38.pdf
+56      -63     MagPi37.pdf
+57      -62     MagPi36.pdf
+58      -61     MagPi35.pdf
+59      -60     MagPi34.pdf
+60      -59     MagPi33.pdf
+61      -58     MagPi32.pdf
+62      -57     MagPi31.pdf
+63      -56     MagPi30.pdf
+64      -55     MagPi29.pdf
+65      -54     MagPi28.pdf
+66      -53     MagPi27.pdf
+67      -52     MagPi26.pdf
+68      -51     MagPi25.pdf
+69      -50     MagPi24.pdf
+70      -49     MagPi23.pdf
+71      -48     MagPi22.pdf
+72      -47     MagPi21.pdf
+73      -46     MagPi20.pdf
+74      -45     MagPi19.pdf
+75      -44     MagPi18.pdf
+76      -43     MagPi17.pdf
+77      -42     MagPi16.pdf
+78      -41     MagPi15.pdf
+79      -40     MagPi14.pdf
+80      -39     MagPi13.pdf
+81      -38     MagPi12.pdf
+82      -37     MagPi11.pdf
+83      -36     MagPi10.pdf
+84      -35     MagPi09.pdf
+85      -34     MagPi08.pdf
+86      -33     MagPi07.pdf
+87      -32     MagPi06.pdf
+88      -31     MagPi05.pdf
+89      -30     MagPi04.pdf
+90      -29     MagPi03.pdf
+91      -28     MagPi02.pdf
+92      -27     MagPi01.pdf
+93      -26     Pi-Projects5.pdf
+94      -25     Retro_Gaming.pdf
+95      -24     000_GetStartedRPi_DIGITAL.pdf
+96      -23     000_RPi_BeginnersGuide_DIGITAL.pdf
+97      -22     Beginners_Guide_v2.pdf
+98      -21     C_GUI_Programming.pdf
+99      -20     Essentials_Bash_v2.pdf
+100     -19     CC_Book_of_Scratch_v1.pdf
+101     -18     Beginners_Guide_v1.pdf
+102     -17     Projects_Book_v4.pdf
+103     -16     Annual2018.pdf
+104     -15     Beginners_Book_v1.pdf
+105     -14     Projects_Book_v3.pdf
+106     -13     Essentials_AIY_Projects_Voice_v1.pdf
+107     -12     Essentials_Camera_v1.pdf
+108     -11     Projects_Book_v2.pdf
+109     -10     Essentials_C_v1.pdf
+110     -9      Essentials_GPIOZero_v1.pdf
+111     -8      Essentials_Minecraft_v1.pdf
+112     -7      Essentials_Scratch_v1.pdf
+113     -6      Essentials_Sonic_Pi-v1.pdf
+114     -5      Essentials_SenseHAT_v1.pdf
+115     -4      Essentials_Games_v1.pdf
+116     -3      Projects_Book_v1.pdf
+117     -2      Essentials_Bash_v1.pdf
+118     -1      MagPiSE1.pdf
+
+Please Enter the Location to Download the Files.
+Example:        C:\Users\Bhargav\Downloads
+Your Input:     H:\MagPi
+
+Now, Please Select The Type of Download You Want.
+1. Download One
+2. Selective Download
+3. Download All
+4. Missing and Incomplete
+
+Enter 1, 2, 3 or 4:     4
+
+The Comparing Could Take a While As It Checks the Local with Network.
+------------Please be Patient-----------
+Incomplete Downloads:
+Essentials_Bash_v1.pdf
+
+Missing Downloads:
+Essentials_AIY_Projects_Voice_v1.pdf
+
+
+-----Writing Essentials_Bash_v1.pdf-----Voice_v1.pdf--------
+Files Have Been Successfully Downloaded to H:\MagPi
+Press Any Key to Exit.
+
+H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\dist>
