@@ -564,14 +564,14 @@ H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch\dist>
 ```
 
 ### [Executable File](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe) :floppy_disk:
-_[Executable](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe) (also called freezed file) for using in change of confguration of base system or in absence of python. The file be used for distribution with ease and without dependencies. Following is the commands I used for the same. [Click here](https://github.com/Bhargav43/MagPi-Fetch/blob/master/Freezing%20Logs.txt) for freezing logs._
+_[Executable](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe) for using in change of configuration of base system or in absence of python. The file can be used for distribution with ease and without dependencies. Following are the commands I used for the creating the executable. [Click here](https://github.com/Bhargav43/MagPi-Fetch/blob/master/Freezing%20Logs.txt) for freezing logs._
 
 #### Creating Specifications file :page_facing_up:
 ```
 pyi-makespec --onefile --hidden-import=requests --hidden-import=requests_html --hidden-import=bs4 --hidden-import=re --hidden-import=os --hidden-import=time --hidden-import=sys --hidden-import=TextPrinter --hidden-import=ScrapperFunctions --hidden-import=SelectorFunctions --hidden-import=WriterFunction --hidden-import=pkg_resources.py2_warn --icon=".\Includes\RaspberryPiIcon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\MagPi-Fetch" ".\Scripts\MagPi-Fetch.py"
 ```
 
-This creates the following [MagPi-Fetch.spec](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.spec) as follows,
+This creates the [MagPi-Fetch.spec](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.spec) as follows,
 ```
 # -*- mode: python ; coding: utf-8 -*-
 
@@ -617,6 +617,6 @@ pyinstaller --onefile --hidden-import=requests --hidden-import=requests_html --h
 
 ### Finally, the Working Model :metal:
 
-Click for accessing [MagPi-Fetch](https://github.com/Bhargav43/MagPi-Fetch)
+Click for accessing [MagPi-Fetch.exe](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe)
 
 # Farewell! :tada::tada:
