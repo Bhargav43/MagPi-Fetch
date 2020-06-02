@@ -14,7 +14,7 @@ The softcopies of these mags are open for everyone online. You can visit [Issues
 3 | PyInstaller | Version 3.6
 4 | IDE | Pyzo 4.10.2 x64 bit
 
-_Recommendation: Except for Type of OS (Windows), other configurations doesn't matter even if you don't have Python in your system, if you are using the [`executable`](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe) directly. Try It._
+_Recommendation: Try using [`executable`](https://github.com/Bhargav43/MagPi-Fetch/blob/master/MagPi-Fetch.exe) directly as it doesn't require Python and other dependencies to be present in your Windows PC. Executable is mostly made stand-alone._ 
 
 ## Requirements :heavy_exclamation_mark:
 There aren't any mandates for this. Yet I recommend you to have the following.
